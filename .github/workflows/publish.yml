@@ -1,4 +1,4 @@
-name: Publish Xor
+name: Publish SLogic
 on:
   push:
     branches:

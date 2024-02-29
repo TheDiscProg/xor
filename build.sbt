@@ -17,12 +17,12 @@ lazy val root = (project in file("."))
   )
   .settings(
     commonSettings,
-    name := "xor",
+    name := "slogic",
     scalacOptions ++= Scalac.options,
   )
 
 githubOwner := "TheDiscProg"
-githubRepository := "xor"
+githubRepository := "slogic"
 
 addCommandAlias("cleanTest", ";clean;scalafmt;test:scalafmt;test;")
 addCommandAlias("cleanCoverage", ";clean;scalafmt;test:scalafmt;coverage;test;coverageReport;")

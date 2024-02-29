@@ -1,4 +1,4 @@
-package thediscprog
+package thediscprog.slogic
 
 trait Xor[A, B] {
 

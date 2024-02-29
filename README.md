@@ -1,4 +1,7 @@
-# XOR
+# Scala Logic (SLogic)
+As set of logical operators for Scala.
+
+## XOR
 A simple logical Exclusive OR Container for Scala.
 
 It's signature is: `Xor[A, B]` where:
