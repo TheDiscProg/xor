@@ -53,7 +53,7 @@ private class XorImpl[A, B] private (private val a: Option[A], private val b: Op
     XorImpl.applyRight(applyRight(f))
 
   /*
-   * The methods below help with appling logical operations, such as equals,
+   * The methods below help with applying logical operations, such as equals,
    * to this class.
    */
 
