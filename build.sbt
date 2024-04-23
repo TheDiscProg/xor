@@ -17,7 +17,7 @@ lazy val root = (project in file("."))
   )
   .settings(
     commonSettings,
-    name := "slogic",
+    name := "simex-utils",
     scalacOptions ++= Scalac.options,
   )
 
