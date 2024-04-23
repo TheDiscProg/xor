@@ -1,6 +1,6 @@
 ThisBuild / organization := "TheDiscProg"
 
-ThisBuild / version := "0.1.0"
+ThisBuild / version := "0.2.0"
 
 lazy val commonSettings = Seq(
   scalaVersion := "2.13.10",
@@ -22,7 +22,7 @@ lazy val root = (project in file("."))
   )
 
 githubOwner := "TheDiscProg"
-githubRepository := "slogic"
+githubRepository := "simex-utils"
 
 addCommandAlias("cleanTest", ";clean;scalafmt;test:scalafmt;test;")
 addCommandAlias("cleanCoverage", ";clean;scalafmt;test:scalafmt;coverage;test;coverageReport;")
