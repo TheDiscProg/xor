@@ -1,8 +1,7 @@
-package thediscprog.simexfield
+package io.github.thediscprog.simexfield
 
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
-
 
 class SimexFieldUtilTest extends AnyFlatSpec with Matchers {
 

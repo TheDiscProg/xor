@@ -1,4 +1,4 @@
-package thediscprog.simexfield
+package io.github.thediscprog.simexfield
 
 object SimexFieldUtil {
 
